@@ -19,7 +19,9 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "test": "react-scripts test",
+    "cypress:open": "cypress open",
+    "cypress:run": "cypress run",
+    "test": "concurrently \"npm start\" \"npm:cypress:open\"",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
@@ -39,5 +41,9 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.2",
+    "cypress": "^13.6.0"
   }
 }
