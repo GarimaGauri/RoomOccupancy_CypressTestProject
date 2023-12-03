@@ -43,6 +43,7 @@ const testCases = [
       UsagePremium: 7,
       expectedPremiumRevenue: 1153,
       UsageEconomy: 1,
+      
       expectedEconomyRevenue:45,
     },
   ];
