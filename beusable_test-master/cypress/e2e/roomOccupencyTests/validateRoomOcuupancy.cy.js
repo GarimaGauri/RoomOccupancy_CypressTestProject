@@ -10,6 +10,7 @@ const testCases = [
       UsagePremium: 3,
       expectedPremiumRevenue: 738,
       UsageEconomy: 3 ,
+      
       expectedEconomyRevenue: 167,
     },
     {
