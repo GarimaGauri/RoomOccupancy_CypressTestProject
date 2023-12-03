@@ -10,5 +10,6 @@ jobs:
       # and run all Cypress tests
       - name: Start the application
         run: npm start
+        uses: cypress-io/github-action@v6
       - name: Open Cypress
         run: npm run cypress:open
