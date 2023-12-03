@@ -9,6 +9,6 @@ jobs:
       # Install npm dependencies, cache them correctly
       # and run all Cypress tests
       - name: Start the application
-        run: npm start &
+        run: npm start
       - name: Open Cypress
         run: npm run cypress:open
